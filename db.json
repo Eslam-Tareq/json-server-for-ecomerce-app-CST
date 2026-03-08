@@ -1,0 +1,390 @@
+{
+  "users": [
+    {
+      "id": "1741123456789",
+      "name": "rawda2",
+      "email": "rawda2@gmail.com",
+      "password": "Rawda@1234",
+      "role": "seller",
+      "address": "Tanta Railway Station",
+      "createdAt": "2026-03-04T18:25:00.025Z",
+      "updatedAt": "2026-03-05T09:48:56.599Z"
+    },
+    {
+      "id": "1741123501295",
+      "name": "json",
+      "email": "json@gmail.com",
+      "password": "json@123",
+      "role": "customer",
+      "address": "Tanta Railway Station",
+      "createdAt": "2026-03-04T18:30:01.295Z"
+    },
+    {
+      "id": "2",
+      "name": "Ahmed Hassan",
+      "email": "ahmed@seller.com",
+      "password": "Seller@123",
+      "role": "seller",
+      "address": "Alexandria, Egypt",
+      "createdAt": "2026-03-04T18:25:00.025Z"
+    },
+    {
+      "id": "3",
+      "name": "Sara Mohamed",
+      "email": "sara@seller.com",
+      "password": "Seller@456",
+      "role": "seller",
+      "address": "Giza, Egypt",
+      "createdAt": "2026-03-04T18:25:00.025Z"
+    },
+    {
+      "id": "1bbd05ef-914f-4b3a-bdf1-bcd2990369e1",
+      "name": "rawda abdelhady",
+      "email": "rawda@gmail.com",
+      "password": "Rawda@123",
+      "role": "customer",
+      "address": "Tanta Railway Station",
+      "createdAt": "2026-03-04T18:34:03.327Z"
+    },
+    {
+      "id": "6f671065-c6a0-4281-8c02-567320848bde",
+      "name": "Esam",
+      "email": "esamm612@gmail.com",
+      "password": "Mohamed@123",
+      "role": "customer",
+      "address": "El gesh\nDesouk\nDesouk",
+      "createdAt": "2026-03-04T20:04:12.535Z"
+    },
+    {
+      "id": "9d115a16-c3a7-4179-991d-228d8c60a2a5",
+      "name": "deda",
+      "email": "adsfas@af.com",
+      "password": "adsf@$#@%@^DSF+626",
+      "role": "customer",
+      "address": "tanta",
+      "createdAt": "2026-03-04T21:48:06.617Z",
+      "updatedAt": "2026-03-04T22:42:33.690Z"
+    },
+    {
+      "id": "92077be9-a122-49eb-998f-107899bd6363",
+      "name": "ESlam",
+      "email": "eslam20@yahoo.com",
+      "password": "EA!1jhasdbf",
+      "role": "admin",
+      "address": "HDSHAFD",
+      "createdAt": "2026-03-04T22:04:01.051Z",
+      "updatedAt": "2026-03-04T22:42:58.194Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "101",
+      "name": "iPhone 15 Pro",
+      "category": "Electronics",
+      "stock": 25,
+      "images": [
+        "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=500",
+        "https://images.unsplash.com/photo-1696426051666-1c1222203ef1?w=500",
+        "https://images.unsplash.com/photo-1695048132926-9c4a5f99df21?w=500"
+      ],
+      "details": [
+        "6.1-inch Super Retina XDR display",
+        "A17 Pro chip with 6-core GPU",
+        "48MP Main camera with 3x telephoto",
+        "Up to 29 hours video playback",
+        "Titanium design with USB-C connector"
+      ],
+      "price": 1199.99,
+      "sellerId": "2"
+    },
+    {
+      "id": "102",
+      "name": "Samsung Galaxy S24 Ultra",
+      "category": "Electronics",
+      "stock": 30,
+      "images": [
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500",
+        "https://images.unsplash.com/photo-1707583883035-91428b9b0c0a?w=500"
+      ],
+      "details": [
+        "6.8-inch Dynamic AMOLED 2X display",
+        "Snapdragon 8 Gen 3 processor",
+        "200MP Main camera with 100x Space Zoom",
+        "5000mAh battery with 45W fast charging",
+        "Built-in S Pen with AI features"
+      ],
+      "price": 1399.99,
+      "sellerId": "2"
+    },
+    {
+      "id": "103",
+      "name": "MacBook Pro 16-inch",
+      "category": "Electronics",
+      "stock": 15,
+      "images": [
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500",
+        "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?w=500",
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=500"
+      ],
+      "details": [
+        "M3 Pro chip with 12-core CPU",
+        "18-core GPU for graphics-intensive tasks",
+        "16GB unified memory, 512GB SSD",
+        "16-inch Liquid Retina XDR display",
+        "Up to 22 hours battery life"
+      ],
+      "price": 2499.99,
+      "sellerId": "2"
+    },
+    {
+      "id": "104",
+      "name": "Men's Classic Leather Jacket",
+      "category": "Fashion",
+      "stock": 50,
+      "images": [
+        "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500",
+        "https://images.unsplash.com/photo-1551028718-8c3b2c5a5b5b?w=500"
+      ],
+      "details": [
+        "100% genuine leather",
+        "Classic biker style with zipper closure",
+        "Two front pockets with zippers",
+        "Available in Black and Brown",
+        "Sizes: S, M, L, XL, XXL"
+      ],
+      "price": 199.99,
+      "sellerId": "3"
+    },
+    {
+      "id": "105",
+      "name": "Women's Summer Dress",
+      "category": "Fashion",
+      "stock": 100,
+      "images": [
+        "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500",
+        "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=500"
+      ],
+      "details": [
+        "Lightweight cotton blend fabric",
+        "Floral print with V-neck design",
+        "Short sleeves with elastic waist",
+        "Machine washable",
+        "Sizes: XS, S, M, L"
+      ],
+      "price": 49.99,
+      "sellerId": "3"
+    },
+    {
+      "id": "106",
+      "name": "Sony WH-1000XM5 Headphones",
+      "category": "Electronics",
+      "stock": 40,
+      "images": [
+        "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=500",
+        "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=500"
+      ],
+      "details": [
+        "Industry-leading noise cancellation",
+        "30-hour battery life with quick charging",
+        "Touch sensor controls for easy operation",
+        "Crystal clear hands-free calling",
+        "Multipoint connection to two devices"
+      ],
+      "price": 349.99,
+      "sellerId": "2"
+    },
+    {
+      "id": "2d45",
+      "name": "alarm",
+      "category": "electronics",
+      "price": 50,
+      "stock": 1,
+      "details": [],
+      "images": [
+        "https://www.kff.org/wp-content/uploads/sites/2/2013/04/alarm-2-300.jpg"
+      ],
+      "sellerId": "3"
+    },
+    {
+      "id": "74df",
+      "name": "alarm",
+      "category": "electronics",
+      "price": 50,
+      "stock": 1,
+      "details": [],
+      "images": [
+        "https://www.kff.org/wp-content/uploads/sites/2/2013/04/alarm-2-300.jpg"
+      ],
+      "sellerId": "3"
+    }
+  ],
+  "cart": [
+    {
+      "id": "1001",
+      "userId": "4",
+      "productId": "101",
+      "name": "iPhone 15 Pro",
+      "price": 1199.99,
+      "images": [
+        "https://images.unsplash.com/photo-1695048133142-1a20484d2568?w=500"
+      ],
+      "quantity": 1
+    },
+    {
+      "id": "1002",
+      "userId": "4",
+      "productId": "106",
+      "name": "Sony WH-1000XM5 Headphones",
+      "price": 349.99,
+      "images": [
+        "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=500"
+      ],
+      "quantity": 2
+    },
+    {
+      "id": "1003",
+      "userId": "5",
+      "productId": "105",
+      "name": "Women's Summer Dress",
+      "price": 49.99,
+      "images": [
+        "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500"
+      ],
+      "quantity": 3
+    },
+    {
+      "id": "1004",
+      "userId": "6",
+      "productId": "104",
+      "name": "Men's Classic Leather Jacket",
+      "price": 199.99,
+      "images": [
+        "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500"
+      ],
+      "quantity": 1
+    },
+    {
+      "id": "1005",
+      "userId": "6",
+      "productId": "102",
+      "name": "Samsung Galaxy S24 Ultra",
+      "price": 1399.99,
+      "images": [
+        "https://images.unsplash.com/photo-1707583882921-5934d6b4f0f3?w=500"
+      ],
+      "quantity": 1
+    }
+  ],
+  "orders": [
+    {
+      "id": "5001",
+      "date": "2024-03-15T10:30:00Z",
+      "customer": {
+        "userId": "4",
+        "name": "Ahmed Hassan",
+        "email": "ahmed@example.com",
+        "address": "15 Nile Street, Cairo, Egypt"
+      },
+      "products": [
+        {
+          "productId": "101",
+          "name": "iPhone 15 Pro",
+          "price": 1199.99,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2568?w=500"
+        },
+        {
+          "productId": "106",
+          "name": "Sony WH-1000XM5 Headphones",
+          "price": 349.99,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=500"
+        }
+      ],
+      "paymentMethod": "Visa ending in 4242",
+      "totalPrice": 1549.98,
+      "status": "delivered"
+    },
+    {
+      "id": "5002",
+      "date": "2024-03-18T14:45:00Z",
+      "customer": {
+        "userId": "5",
+        "name": "Sara Mahmoud",
+        "email": "sara@example.com",
+        "address": "22 Alexandria Road, Giza, Egypt"
+      },
+      "products": [
+        {
+          "productId": "105",
+          "name": "Women's Summer Dress",
+          "price": 49.99,
+          "quantity": 3,
+          "image": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500"
+        },
+        {
+          "productId": "103",
+          "name": "MacBook Pro 16-inch",
+          "price": 2499.99,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500"
+        }
+      ],
+      "paymentMethod": "Cash on delivery",
+      "totalPrice": 2649.96,
+      "status": "shipped"
+    },
+    {
+      "id": "5003",
+      "date": "2024-03-20T09:15:00Z",
+      "customer": {
+        "userId": "6",
+        "name": "Mohamed Ali",
+        "email": "mohamed@example.com",
+        "address": "7 Tahrir Square, Cairo, Egypt"
+      },
+      "products": [
+        {
+          "productId": "102",
+          "name": "Samsung Galaxy S24 Ultra",
+          "price": 1399.99,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1707583882921-5934d6b4f0f3?w=500"
+        },
+        {
+          "productId": "104",
+          "name": "Men's Classic Leather Jacket",
+          "price": 199.99,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500"
+        }
+      ],
+      "paymentMethod": "Mastercard ending in 1234",
+      "totalPrice": 1599.98,
+      "status": "pending"
+    },
+    {
+      "id": "5004",
+      "date": "2024-03-22T16:20:00Z",
+      "customer": {
+        "userId": "4",
+        "name": "Ahmed Hassan",
+        "email": "ahmed@example.com",
+        "address": "15 Nile Street, Cairo, Egypt"
+      },
+      "products": [
+        {
+          "productId": "104",
+          "name": "Men's Classic Leather Jacket",
+          "price": 199.99,
+          "quantity": 2,
+          "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500"
+        }
+      ],
+      "paymentMethod": "Visa ending in 4242",
+      "totalPrice": 399.98,
+      "status": "processing"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

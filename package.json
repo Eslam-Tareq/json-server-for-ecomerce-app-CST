@@ -1,0 +1,10 @@
+{
+  "name": "json-server-vercel",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node api/server.js"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
