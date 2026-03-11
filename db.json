@@ -387,42 +387,7 @@
     }
   ],
   "wishlist": [
-    {
-      "id": "101",
-      "userId": "1741123501295",
-      "productId": "101",
-      "addedAt": "2026-03-05T10:30:00.000Z"
-    },
-    {
-      "id": "102",
-      "userId": "1741123501295",
-      "productId": "106",
-      "addedAt": "2026-03-05T10:35:00.000Z"
-    },
-    {
-      "id": "103",
-      "userId": "1bbd05ef-914f-4b3a-bdf1-bcd2990369e1",
-      "productId": "103",
-      "addedAt": "2026-03-05T11:20:00.000Z"
-    },
-    {
-      "id": "104",
-      "userId": "1bbd05ef-914f-4b3a-bdf1-bcd2990369e1",
-      "productId": "105",
-      "addedAt": "2026-03-05T11:25:00.000Z"
-    },
-    {
-      "id": "105",
-      "userId": "6f671065-c6a0-4281-8c02-567320848bde",
-      "productId": "102",
-      "addedAt": "2026-03-05T12:15:00.000Z"
-    },
-    {
-      "id": "106",
-      "userId": "6f671065-c6a0-4281-8c02-567320848bde",
-      "productId": "104",
-      "addedAt": "2026-03-05T12:20:00.000Z"
-    }
+  
   ],
   "$schema": "./node_modules/json-server/schema.json"
 }
