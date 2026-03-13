@@ -2,7 +2,8 @@
   "name": "json-server-vercel",
   "version": "1.0.0",
   "scripts": {
-    "start": "node api/server.js"
+    "start": "node api/server.js",
+    "server": "npx json-server --watch db.json --port 3000"
   },
   "dependencies": {
     "json-server": "^0.17.4"
