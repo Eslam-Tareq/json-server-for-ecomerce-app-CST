@@ -30,7 +30,6 @@ const saveDb = async (data) => {
     .updateOne({ _id: "db" }, { $set: { data } }, { upsert: true });
 };
 
-// CORS
 server.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader(
@@ -43,7 +42,7 @@ server.use((req, res, next) => {
 });
 
 // Full json-server middlewares (logging, static, cors, no-cache)
-server.use(jsonServer.defaults());
+server.use(jsonServer.defaults({ noCors: true }));
 
 // Body parser — required for POST/PUT/PATCH
 server.use(jsonServer.bodyParser);
