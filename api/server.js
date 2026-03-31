@@ -6,7 +6,7 @@ const fs = require("fs");
 const { MongoClient } = require("mongodb");
 
 const server = jsonServer.create();
-const dbPath = path.resolve(__dirname, "../db.json");
+const dbPath = path.resolve(__dirname, "../newdb.json");
 
 const client = new MongoClient(process.env.MONGODB_URI);
 
